@@ -68,6 +68,7 @@ const Home: NextPage = () => {
         onClick={(event) => {
           web3React.deactivate();
           localStorage.removeItem("provider");
+
           setBalance("");
         }}
       >
