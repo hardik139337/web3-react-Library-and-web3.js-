@@ -24,12 +24,6 @@ export const WalletConnect = new WalletConnectConnector({
   supportedChainIds: [TESTNET_CHAIN_ID, MAINNET_CHAIN_ID],
 });
 
-export const Injected = new InjectedConnector({
+export const Metamask = new InjectedConnector({
   supportedChainIds: [1, 3, 4, 5, 42],
 });
-
-export const providers = {
-  CoinbaseWallet,
-  Injected,
-  WalletConnect,
-};
